@@ -47,3 +47,8 @@ stages:
     - models/model.joblib
     outs:
     - run_information.json
+  register_model:
+    cmd: python src/models/registry.py
+    deps:
+    - src/models/registry.py
+    - run_information.json

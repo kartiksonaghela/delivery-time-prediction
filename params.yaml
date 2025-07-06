@@ -7,7 +7,6 @@ Train:
     n_estimators:  350
     criterion: 'squared_error'
     max_depth: 22
-    max_features: 1
     min_samples_split: 10
     min_samples_leaf: 2
     max_samples: 0.6929749774146244

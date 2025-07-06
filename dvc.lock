@@ -85,7 +85,6 @@ stages:
           n_estimators: 350
           criterion: squared_error
           max_depth: 22
-          max_features: 1
           min_samples_split: 10
           min_samples_leaf: 2
           max_samples: 0.6929749774146244
@@ -94,8 +93,8 @@ stages:
     outs:
     - path: models/model.joblib
       hash: md5
-      md5: f62ec34c222cec57ef94610f33b2a270
-      size: 112670772
+      md5: 1f2315137f1eea2b3a32fe17460b069b
+      size: 131550340
     - path: models/power_transformer.joblib
       hash: md5
       md5: 1748eeb36a7a846b0549a70c4bbbdbaa
@@ -113,8 +112,8 @@ stages:
       size: 4060457
     - path: models/model.joblib
       hash: md5
-      md5: f62ec34c222cec57ef94610f33b2a270
-      size: 112670772
+      md5: 1f2315137f1eea2b3a32fe17460b069b
+      size: 131550340
     - path: src/models/evaluation.py
       hash: md5
       md5: 9248bd43eea7b1c13f6e4c41a9dd963f
@@ -122,5 +121,5 @@ stages:
     outs:
     - path: run_information.json
       hash: md5
-      md5: 2440cbca22eabb630ce32bfd9743f487
+      md5: ff3c751f2e6b7d1a520a0ca2dcf7d744
       size: 220
